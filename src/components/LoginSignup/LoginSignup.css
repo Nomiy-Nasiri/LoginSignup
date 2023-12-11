@@ -1,9 +1,11 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
+    min-height:80vh;
+    max-height: 80VH;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 120px;
     background-color: #fff;
     padding-bottom: 30px;
     border-radius: 10px;
@@ -24,7 +26,7 @@
 .underline{
     width: 150px;
     height: 6px;
-    background: #3c009d;
+    background: #04061488;
     border-radius: 9px;
 }
 .inputs{
@@ -37,8 +39,8 @@
     display: flex;
     align-items: center;
     margin:auto;
-    width: 480px;
-    height:80px;
+    width: 450px;
+    height:60px;
     background: #eaeaea;
     border-radius: 6px;
 }
@@ -74,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 220px;
+    width: 200px;
     height: 59px;
     color: #fff;
     background: #4c00b4;
